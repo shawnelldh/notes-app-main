@@ -1,5 +1,5 @@
 import React from 'react'
-import notes from '/assetts/data'
+import notes from '../assetts/data'
 
 const NotesPage = () => {
   return (
