@@ -1,17 +1,18 @@
 import React from 'react'
-import notes from '../assets/data'
+import notes from '/assetts/data'
 
 const NotesPage = () => {
   return (
-    <div>
-      {notes.map (note => (
-         <p>{note.body}</p>
-))}
-      
-</div>
+           <div>
 
-     )
+           {notes.map(note =>  (
+              <p>{note.body}</p>
+            
+            ))}
+             
+             </div>
 
+  )
 }
 
- export default NotesPage
+export default NotesPage
